@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FilmsPlaying</key>
+	<array>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string>9,10</string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/bT8qmoCgxZg</string>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Những khán giả yêu thích các bộ phim hành động, giả tưởng về các siêu anh hùng giải cứu thế giới của Marvel, đồng thời say mê phim hoạt hình sắp có cơ hội được mãn nhãn bởi sự kết hợp của cả hai dòng phim trên trong BIỆT ĐỘI BIG HERO 6 (tên gốc: BIG HERO 6) - sản phẩm từ sự kết hợp giữa Marvel và Walt Disney.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Don Hall,Chris Williams</string>
+			<key>ZFILMID</key>
+			<string>0</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh1.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>Biệt đội Big Hero 6</string>
+			<key>ZFILMTYPE</key>
+			<string>Hành Động,Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/c6jrL6HFW04</string>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Ở Bách Hoa Thôn yên bình, có cậu bé tên Mã Lương. Cậu là một đứa trẻ thông minh lanh lợi và rất thích vẽ tranh. Một ngày kia, một tên tướng quân tham lam hung ác dẫn theo một tên tiểu hoàng đế đến Bách Hoa Thôn hòng chiếm đoạt mỏ vàng. Bát Mặc tiên nhân đã tặng cây bút thần  cho Mã Lương, hi vọng Mã Lương có thể dùng cây bút thần này bảo vệ dân làng.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Frankie Chung</string>
+			<key>ZFILMID</key>
+			<string>1</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh2.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>THẦN BÚT MÃ LƯƠNG</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Tâm Lý</string>
+			<key>ZFILMVOTE</key>
+			<real>9.5</real>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/L_lJKN4vzwQ</string>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Yukari Hayasaka (Keiko Kitagawa) là một nữ sinh trung học luôn cảm thấy mệt mỏi với cuộc sống buồn chán ở trường.Rồi cô tham gia vào một nhóm thiết kế thời trang trẻ trong vai trò là người mẫu cho nhãn hiệu quần áo &quot;Paradise Kiss&quot;  của họ. Yukari không biết một chút gì về thế giới thời trang và những thứ lập dị mà nhóm thiết kế mang lại cho cô.Nhưng rồi cô dần trở nên say mê những ý tưởng tự do và sáng tạo đó,cũng như có tham vọng theo đuổi giấc mơ của họ đến cùng.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Takehiko Shinjo</string>
+			<key>ZFILMID</key>
+			<string>2</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh3.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>NỤ HÔN THIÊN ĐƯỜNG</string>
+			<key>ZFILMTYPE</key>
+			<string>Hài Hước,Tâm Lý</string>
+			<key>ZFILMVOTE</key>
+			<real>8.5</real>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/_PDMALlt4Ec</string>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Morisato Keiichi rất mong đợi vào cuộc sống đại học của mình. Nhưng cậu có quá nhiều điều không may mắn, như ở clb, tình yêu, đời sống hàng ngày. Rồi một ngày cậu gọi nhầm số và rồi một nữ thần đến trước mặt cậu.....và định mệnh của cậu đã thay đổi từ đó.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Drew Aaron, Shannon Conley</string>
+			<key>ZFILMID</key>
+			<string>3</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh4.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>AH! MY GODDESS</string>
+			<key>ZFILMTYPE</key>
+			<string>Phim Hoạt Hình</string>
+			<key>ZFILMVOTE</key>
+			<real>7.5</real>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/dAK6ANOgArg</string>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>phim kể về cuộc phiêu lưu của nhóm hiệp sĩ muốn tiêu diệt chúa quỷ Hắc Long nhằm đem lại hòa bình cho thế giới. Với việc kết hợp bối cảnh cũng như các lớp nhân vật quen thuộc: Warrior, Archer, Sorceress và Cleric của tựa game Dragon Nest, bộ phim mong muốn đem lại cho khán giả những trải nghiệm mới lạ hơn khi theo dõi hành trình của các nhân vật mà mình từng quen thuộc.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Yuefeng Song</string>
+			<key>ZFILMID</key>
+			<string>4</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh5.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>HẮC LONG ĐE DỌA</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://www.youtube.com/watch?v=R8NbfFUU4xE</string>
+			<key>ZFILMTIME</key>
+			<integer>108</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Sở hữu năng lực bí ẩn được truyền lại từ tổ tiên, công chúa Elsa sống trong sự sợ hãi khi cô vô tình đóng băng mọi thứ xung quanh mỗi khi chạm vào bất cứ vật gì. Dù cố gắng giữ nó trong tầm kiểm soát nhưng Elsa vẫn thất bại cũng như khiến những người xung quanh khiếp sợ bởi năng lực của mình</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Chris Buck, Jennifer Lee</string>
+			<key>ZFILMID</key>
+			<string>5</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh6.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>VƯƠNG QUỐC BĂNG GIÁ</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/dnRAVwBBRRA</string>
+			<key>ZFILMTIME</key>
+			<integer>95</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Hình ảnh chú mèo máy Doraemon đã trở thành một phần tuổi thơ của biết bao thế hệ. Đối với người dân Nhật Bản, Doraemon còn là một biểu tượng hiện diện ở mọi nơi, một nhân vật gắn bó với họ trong đời sống hàng ngày. Nhân dịp kỷ niệm 80 năm ngày sinh của tác giả Fujiko F Fujio – cha đẻ của bộ truyện tranh Doraemon huyền thoại, các nhà làm phim Nhật Bản đã sản xuất DORAEMON: STAND BY ME – bộ phim hoạt hình 3D đầu tiên về nhân vật này, như một món quà ý nghĩa dành cho tất cả những ai yêu quý chú mèo máy mập ú.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Ryuichi Yagi,Takashi Yamazaki</string>
+			<key>ZFILMID</key>
+			<string>6</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh7.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>ĐÔI BẠN THÂN</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Tâm Lý</string>
+			<key>ZFILMVOTE</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>ZFILMBOOKINGS</key>
+			<string></string>
+			<key>ZFILMTRAILERURL</key>
+			<string>https://youtu.be/Dnzf-GMZhio</string>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2015-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Nhân vật chính là cậu bé Mowgli, vì một lý do nào đó bị bỏ rơi trong rừng rậm Ấn Độ. Được gấu Baloo và báo Bagheera yêu quý, hết lòng nuôi nấng. Cuộc sống của cậu tưởng chừng sẽ trôi qua thật vui vẻ, tuy nhiên, rừng rậm vẫn đầy rẫy những nguy hiểm đang chực chờ.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Tapaas Chakravarti</string>
+			<key>ZFILMID</key>
+			<string>7</string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh8.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>CẬU BÉ RỪNG XANH BỮA TIỆC RỪNG</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+	<key>FilmsWillPlay</key>
+	<array>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Những khán giả yêu thích loạt phim hoạt hình Madagascar (2005), Madagascar: Escape 2 Africa (2008), Madagascar 3: Europe&apos;s Most Wanted (2012) chắc hẳn không thể nào quên bốn nhân vật đặc biệt trong biệt đội chim cánh cụt siêu quậy. Với tạo hình vừa nghịch ngợm, vừa đáng yêu, cùng sự xuất hiện bất ngờ và đầy cá tính trong những màn hành động gây cười ấn tượng, bốn chú kim cánh cụt Skipper (do Tom McGrath lồng tiếng), Kowalski (do Chris Miller lồng tiếng), Private (do Christopher Knights lồng tiếng) và Rico (do John DiMaggio lồng tiếng) đã tạo cho mình một lượng người hâm mộ đáng kể và trở thành những nhận vật được quan tâm nhất trong loạt phim Madagascar.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Eric Darnell,Simon J. Smith</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh9.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>BIỆT ĐỘI CÁNH CỤT VÙNG MADAGASCAR</string>
+			<key>ZFILMTYPE</key>
+			<string>Hài Hước, Hoạt Hình</string>
+			<key>ZFILMVOTE</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Là phần thứ hai ly kỳ của bộ ba tác phẩm sử thi, &quot;How to Train Your Dragon 2&quot; tái hiện lại lại thế giới giả tưởng của Hiccup (Baruchel) và Toothless (Răng Sún) năm năm sau đó. Toothless (Răng Sún) và Hiccup sẽ trở lại cho cuộc phiêu lưu lớn hơn, và cũng không thiếu những tràn cười cùng những trận đánh đầy kịch tính. Cuộc phiêu lưu mới dẫn họ đến việc phát hiện ra một hang đá bí mật mà ở đó có hàng trăm con rồng hoang dã mới và bí ẩn Dragon Rider. Và rồi họ bị cuốn vào một cuộc chiến để bảo vệ hòa bình. Hiccup (Baruchel) và Toothless (Răng Sún) phải đoàn kết đứng lên cho những gì họ tin tưởng và phải thừa nhận rằng chỉ có cùng nhau họ có sức mạnh để thay đổi tương lai của cả hai.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Dean DeBlois</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh10.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>BÍ KÍP LUYỆN RỒNG 2</string>
+			<key>ZFILMTYPE</key>
+			<string>Hành Động, Hoạt Hình, Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<real>9.5</real>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Phim Ngôi Nhà Phép Thuật The House of Magic  kể về một chú mèo lạc đường trong cơn giông bão vô tình vào một căn nhà của một nhà pháp thuật, trong căn nhà còn có những robot và các sinh vật kì lạ khác...</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Jeremy Degruson,Ben Stassen</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh11.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>NGÔI NHÀ MA THUẬT</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình, Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<real>8.5</real>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Nữ Hoàng Tuyết tạo ra thế giới của mùa đông vĩnh cửu, nơi những làn gió mát lạnh tâm hồn con người và sự trong trẻo những dòng cảm xúc mơ hồ. Một cô gái tên là Gerda, cùng với con vật cưng của mình là chú chồn Luta, và con quỷ khổng lồ Orm phải cứu anh trai Kai của cô ấy và cứu thế giới.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Vladlen Barbe,Maksim Sveshnikov</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh12.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>NỮ HOÀNG TUYẾT</string>
+			<key>ZFILMTYPE</key>
+			<string>Phim Hoạt Hình</string>
+			<key>ZFILMVOTE</key>
+			<real>7.5</real>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>90</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Lumina, một nàng tiên cá luôn mơ ước được trở thành công chúa. Từ lâu cô đã có một khả năng kỳ diệu làm cho ngọc trai nhảy múa và phát sáng! Lumina cùng người bạn thân nhất Kuda, chú cá ngựa màu hồng, đặt chân vào một cuộc phiêu lưu đến vương quốc người cá hùng vĩ. Ở đó, cô sử dụng khả năng của mình để giúp bạn bè chuẩn bị cho Vũ hội Hoàng gia. Sau đó Lumina phát hiện ra rằng những viên ngọc trai kỳ diệu của cô chính là chìa khóa mở ra số phận thực sự của mình và cứu lấy vương quốc.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Ezekiel Norton</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh13.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>NÀNG TIÊN CÁ BARBIE</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>97</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Trong trận Marineford (Tổng Bộ Hải Quân), Luffy đau khổ khi mất đi người anh trai của mình – Ace và cậu nhận ra rằng mình còn những người đồng đội (nakama). Để vượt qua nỗi buồn và quyết tâm mạnh hơn nữa để bảo vệ đồng đội mình, cậu đã nhờ Rayleigh chỉ bảo và dạy cậu cách để mạnh hơn. Quá trình tập luyện của Luffy kéo dài 2 năm tại đảo Rusukaina.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Ezekiel Norton</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh14.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>ONE PIECE</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>93</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Song Of The Sea: dựa trên truyền thuyết Selkies (tạm gọi Người hải cẩu) của văn hóa Ailen. Selkie là một sinh vật thần thoại vừa giống hồ ly tinh, vừa giống truyền thuyết về các nàng tiên nữ hạ trần của Á Đông. Câu chuyện xoay quanh hai anh em Ben và Saoirse (đứa con cuối cùng của người hải cẩu) cùng nhau bước vào một cuộc phiêu lưu lớn. Đoạn trailer ngắn tiết lộ những hình ảnh tuyệt đẹp của phim cũng như bài hát nhạc nền đầy ngọt ngào.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Tomm Moore</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh15.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>KHÚC CA CỦA BIỂN CẢ</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>ZFILMTIME</key>
+			<integer>85</integer>
+			<key>ZFILMDATESTART</key>
+			<date>2016-04-01T09:15:42Z</date>
+			<key>ZFILMCONTENT</key>
+			<string>Asterix: The Land of the God (Asterix và vùng đất Thánh) là bộ phim hoạt hình 3D vui nhộn dựa trên loạt truyện tranh ăn khách Asterix của Goscinny và Uderzo, đã trở thành một phần văn hóa đại chúng Pháp. Ở phần này, Đại đế Julius Caesar quyết tâm triệt hạ toàn bộ làng Gô-loa (Gaulish). Thất bại bằng vũ lực, hắn quyết định “chuyển nhà” đến tận làng và gây sức ép để dân làng đồng hóa với nền văn hóa La Mã. Nhưng kế hoạch này gặp phải vô vàn khó khăn bởi những tên thuộc hạ ngớ ngẩn và hài hước. Asterix: The Land of the God là một hiện tượng khi công chiếu ở Pháp hồi cuối năm 2014, khi thu về đến 7,6 triệu đô chỉ trong tuần đầu tiên.</string>
+			<key>ZFILMDIRECTOR</key>
+			<string>Louis Clichy,Alexandre Astier</string>
+			<key>ZFILMID</key>
+			<string></string>
+			<key>ZFILMIMAGE</key>
+			<string>hinh16.jpg</string>
+			<key>ZFILMNAME</key>
+			<string>ASTERIX VÀ VÙNG ĐẤT THÁNH</string>
+			<key>ZFILMTYPE</key>
+			<string>Hoạt Hình,Phiêu Lưu</string>
+			<key>ZFILMVOTE</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+	<key>FilmSchedules</key>
+	<array>
+		<dict>
+			<key>ZFILMID</key>
+			<string>1</string>
+			<key>ZFILMSCHEDULES</key>
+			<array>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>24/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>26/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Lotte Lê Đại Hành</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>27/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>28/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Lotte Lê Đại Hành</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ZFILMID</key>
+			<string>2</string>
+			<key>ZFILMSCHEDULES</key>
+			<array>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>25/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>26/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>27/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>28/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ZFILMID</key>
+			<string>3</string>
+			<key>ZFILMSCHEDULES</key>
+			<array>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>25/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>26/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>27/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>28/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ZFILMID</key>
+			<string>4</string>
+			<key>ZFILMSCHEDULES</key>
+			<array>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>25/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>26/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>27/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>ZSCHEDULEDATE</key>
+					<string>28/4/2015</string>
+					<key>ZTHEATERS</key>
+					<array>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Hùng Vương</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>CGV Pandora City</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,11:00,13:00,17:00,19:30,20:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Du</string>
+							<key>ZTHEATERRANGE</key>
+							<string>8.7 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30</string>
+						</dict>
+						<dict>
+							<key>ZTHEATERNAME</key>
+							<string>Galaxy Nguyễn Trãi</string>
+							<key>ZTHEATERRANGE</key>
+							<string>4.2 km</string>
+							<key>ZSCHEDULETIMES</key>
+							<string>07:00,09:00,11:00,13:00,15:00,17:00,19:30,21:00</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

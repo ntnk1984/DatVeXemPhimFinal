@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController 
+
+@property (strong, nonatomic) IBOutlet UITableView *tbvFilmPlaying;
+
+@property (strong, nonatomic) NSMutableArray *root;
+@property (strong, nonatomic) NSMutableArray *filmsList;
+- (IBAction)segValueChange:(UISegmentedControl *)sender;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segControl;
+
+
+- (IBAction)playVideo:(UIButton *)sender;
 
 @end
 
