@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__35-[DetailViewController viewDidLoad]_block_invoke:DetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController segValueChange:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Film initWithDictionary:]:Film.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[dic objectForKey:@&quot;FILMCONTENT&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController pickerView:numberOfRowsInComponent:]:DetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.theaterList.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController tableView:cellForRowAtIndexPath:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BookingViewController collectionView:didSelectItemAtIndexPath:]:BookingViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
