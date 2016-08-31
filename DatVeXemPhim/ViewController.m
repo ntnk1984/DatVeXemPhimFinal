@@ -12,6 +12,8 @@
 #import "DetailViewController.h"
 #import "MySegmentedControl.h"
 #import "PlayerViewController.h"
+#define baseUrl @"http://192.168.159.1/api.cinema/api/"
+//#define baseUrl @"http://ntnk1894.somee.com/api/"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -21,6 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     
     // Do any additional setup after loading the view, typically from a nib.
     //NSMutableDictionary *data=[NSMutableDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"]];
@@ -51,9 +54,6 @@
     */
     
     //[self readFileInDocumentWithFileName:@"modifiedData.plist"];
-
-    
-    
 
     [_segControl setSelectedSegmentIndex:0];
     [_segControl addTarget:self action:@selector(segValueChange:) forControlEvents: UIControlEventValueChanged];
@@ -120,9 +120,13 @@
     //
     [self.segControl setContentPositionAdjustment:UIOffsetMake(20 / 2, 0) forSegmentType:UISegmentedControlSegmentLeft barMetrics:UIBarMetricsDefault];
     [self.segControl setContentPositionAdjustment:UIOffsetMake(- 20 / 2, 0) forSegmentType:UISegmentedControlSegmentRight barMetrics:UIBarMetricsDefault];
-       
+    
+    
+    [[NSUserDefaults standardUserDefaults] setValue:baseUrl forKey:@"baseUrl"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
     // 1
-    NSString *dataUrl = @"http://ntnk1894.somee.com/api/getFilmList_Result";
+    NSString *dataUrl = [NSString stringWithFormat:@"%@%@", [[NSUserDefaults standardUserDefaults] stringForKey:@"baseUrl"], @"getFilmList_Result"];
     NSURL *url = [NSURL URLWithString:dataUrl];
     
     // 2
@@ -143,6 +147,8 @@
     
     // 3
     [downloadTask resume];
+    
+    
     
    }
 

@@ -26,7 +26,7 @@
     
     self.theaterList = [[NSMutableArray alloc] init];
     // 1
-    NSString *dataUrl = [NSString stringWithFormat:@"http://ntnk1894.somee.com/api/getTheaterByFilm_Result/%@", _currentItem.id];
+    NSString *dataUrl = [NSString stringWithFormat:@"%@%@/%@", [[NSUserDefaults standardUserDefaults] stringForKey:@"baseUrl"], @"getTheaterByFilm_Result", _currentItem.id];
     NSURL *url = [NSURL URLWithString:dataUrl];
     
     // 2
@@ -59,7 +59,7 @@
                                                       
                                                       //[self.theaterPickerView selectRow:1 inComponent:0 animated:NO];
                                                       // 1
-                                                      NSString *dataUrl = [NSString stringWithFormat:@"http://ntnk1894.somee.com/api/getFilmSchedulesByTheater_Result?FilmID=%@&TheaterID=%@", _currentItem.id, t.theaterID];
+                                                      NSString *dataUrl = [NSString stringWithFormat:@"%@%@?FilmID=%@&TheaterID=%@",[[NSUserDefaults standardUserDefaults] stringForKey:@"baseUrl"], @"getFilmSchedulesByTheater_Result", _currentItem.id, t.theaterID];
                                                       NSURL *url = [NSURL URLWithString:dataUrl];
                                                       
                                                       // 2
@@ -446,7 +446,7 @@
     self.butTheater.titleLabel.text = t.theaterName;
     
     // 1
-    NSString *dataUrl = [NSString stringWithFormat:@"http://ntnk1894.somee.com/api/getFilmSchedulesByTheater_Result?FilmID=%@&TheaterID=%@", _currentItem.id, _currentTheater.theaterID];
+    NSString *dataUrl = [NSString stringWithFormat:@"%@%@?FilmID=%@&TheaterID=%@", [[NSUserDefaults standardUserDefaults] stringForKey:@"baseUrl"], @"getFilmSchedulesByTheater_Result", _currentItem.id, _currentTheater.theaterID];
     NSURL *url = [NSURL URLWithString:dataUrl];
     
     // 2
@@ -476,7 +476,7 @@
                                                   
                                                   
                                                   [self.butTheater setTitle:self.currentTheater.theaterName forState:UIControlStateNormal];
-                                                  [self.butTheater setTitle:self.currentTheater.theaterName forState:UIControlEventTouchDown];
+                                                  //[self.butTheater setTitle:self.currentTheater.theaterName forState:UIControlEventTouchDown];
                                               });
                                               
                                               

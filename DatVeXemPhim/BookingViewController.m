@@ -129,7 +129,38 @@
                     range:[strComplete rangeOfString:str4]];
      
     self.tvFilmDetail.attributedText = strInfo;
-     
+    
+    // 1
+    NSString *dataUrl = [NSString stringWithFormat:@"%@%@?FilmID=%@&TheaterID=%@&Time=%@&Date=%@", [[NSUserDefaults standardUserDefaults] stringForKey:@"baseUrl"], @"getBookedSeats_Result", _currentSchedule.filmID, _currentSchedule.theaterID, _currentSchedule.filmTime, _currentSchedule.filmDate];
+    NSURL *url = [NSURL URLWithString:dataUrl];
+    
+    // 2
+    
+    NSURLSessionDataTask *getFilmSchedulesByTheater_Result = [[NSURLSession sharedSession]
+                                                              dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                                                                  // 4: Handle response here
+                                                                  //NSLog(@"response header: %@", response);
+                                                                  
+                                                                  NSString* aStr;
+                                                                  aStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                                                                  //NSLog(@"response data: %@", aStr);
+                                                                  
+                                                                  
+                                                                  NSMutableArray *json  = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+                                                                  
+                                                                  
+                                                                  for (NSDictionary *dic in json) {
+                                                                      self.currentFilm.filmBookings = dic[@"value"];
+                                                                      
+                                                                      
+                                                                  }
+                                                                  
+                                                                                                                                  
+                                                                  
+                                                              }];
+    
+    // 3
+    [getFilmSchedulesByTheater_Result resume];
 }
      
 
@@ -334,6 +365,36 @@
     
 }
 
+-(void)placePostRequestWithURL:(NSString *)action withData:(NSDictionary *)dataToSend withHandler:(void (^)(NSURLResponse *response, NSData *data, NSError *error))ourBlock {
+    NSString *urlString = [NSString stringWithFormat:@"%@", action];
+    NSLog(@"%@", urlString);
+    
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    
+    NSError *error;
+    
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dataToSend options:0 error:&error];
+    
+    NSString *jsonString;
+    if (! jsonData) {
+        NSLog(@"Got an error: %@", error);
+    } else {
+        jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        
+        NSData *requestData = [NSData dataWithBytes:[jsonString UTF8String] length:[jsonString lengthOfBytesUsingEncoding:NSUTF8StringEncoding]];
+        
+        [request setHTTPMethod:@"POST"];
+        [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+        [request setValue:@"application/json; charset=UTF-8" forHTTPHeaderField:@"Content-Type"];
+        [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[requestData length]] forHTTPHeaderField:@"Content-Length"];
+        [request setHTTPBody: requestData];
+        
+        [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:ourBlock];
+    }
+}
+
+
 - (IBAction)butFinish:(UIButton *)sender {
     
     NSString *normalmessage = [[NSString alloc] init];
@@ -385,56 +446,66 @@
                                style:UIAlertActionStyleDefault
                                handler:^(UIAlertAction *action)
                                {
-                                   /*
-                                   NSString *documentPath = [NSHomeDirectory() stringByAppendingString:@"/Documents"];
-                                   
-                                   NSString *filePathInDocument = [documentPath stringByAppendingPathComponent:@"modifiedData.plist"];
-                                   
-
-                                   NSMutableDictionary *root =[NSMutableDictionary dictionaryWithContentsOfFile:filePathInDocument];
-                                   NSMutableArray *films = [root objectForKey:@"FilmsPlaying"];
-                                
-                                   
-
-                                   for (NSMutableDictionary *dic in films) {
-                                       Film *f = [[Film alloc]initWithDictionary:dic];
+                                   for (NSObject *s in self.selectedSeats) {
+                                       NSError *error;
+                                       
+                                       //NSString *data = [NSString stringWithFormat:@"{\"filmid\":\"%@\",\"theaterid\":\"%@\",\"scheduletime\":\"%@\",\"seatid\":\"%@\",\"scheduledate\":\"%@}",_currentSchedule.filmID, _currentSchedule.theaterID, _currentSchedule.filmTime, [NSString stringWithFormat:@"%@", s], _currentSchedule.filmDate];
+                                       
+                                       NSString *time = [NSString stringWithFormat:@"%@", _currentSchedule.filmTime];
                                        
                                        
-                                       if (f.filmID == self.currentFilm.filmID) {
+                                       NSDictionary *tmp = [[NSDictionary alloc] initWithObjectsAndKeys:
+                                                            [[NSUUID UUID] UUIDString], @"id",
+                                                            _currentSchedule.filmID, @"filmid",
+                                                            _currentSchedule.theaterID, @"theaterid",
+                                                            time , @"scheduletime",
+                                                            [NSString stringWithFormat:@"%@", s], @"seatid",
+                                                            _currentSchedule.filmDate, @"scheduledate",
+                                                            nil];
+                                       
+                                     
+                                       //NSLog(@"%@", tmp);
+
+                                   
+                                       //NSData *postData = [data dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+                                       //NSData *jsonData = [NSJSONSerialization JSONObjectWithData:postData options:0 error:&error];
+                                       NSData *jsonData = [NSJSONSerialization dataWithJSONObject:tmp options:0 error:&error];
+                                       
+                                       if (jsonData) {
+                                           NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+                                           [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+                                           [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [[NSUserDefaults standardUserDefaults] stringForKey:@"baseUrl"], @"BOOKINGs"]]];
+                                           [request setHTTPMethod:@"POST"];
+                                           [request setHTTPBody:jsonData];
                                            
+                                           NSURLResponse *requestResponse;
+                                           NSData *requestHandler = [NSURLConnection sendSynchronousRequest:request returningResponse:&requestResponse error:nil];
+                                           
+                                           NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:requestHandler options:0 error:&error];
+                                           NSLog(@"resposne dicionary is %@",responseDictionary);
+                                           
+                                           NSString *requestReply = [[NSString alloc] initWithBytes:[requestHandler bytes] length:[requestHandler length] encoding:NSASCIIStringEncoding];
+                                           NSLog(@"requestReply: %@", requestReply);
                                            
                                            for (NSObject *obj in self.selectedSeats) {
                                                
                                                self.currentFilm.filmBookings = [self.currentFilm.filmBookings stringByAppendingString:[NSString stringWithFormat:@",%@", obj]];
-                                               f.filmBookings = [self.currentFilm.filmBookings stringByAppendingString:[NSString stringWithFormat:@",%@", obj]];
                                                
-                                               for (int i =0; i<films.count; i++) {
-                                                   NSDictionary *di = [films objectAtIndex:i];
-                                                   
-                                                   if ([[di objectForKey:@"ZFILMID"] isEqual:f.filmID]) {
-                                                       [di setValue:[self.currentFilm.filmBookings stringByAppendingString:[NSString stringWithFormat:@",%@", obj]] forKey:@"ZFILMBOOKINGS"];
-                                                   }
-                                               }
-                                               
-                                               
-                                               
-                                               
-
                                            }
-                        
+
                                            
-                                           break;
+
                                        }
+                                       else{
+                                           NSLog(@"!!!");
+                                       }
+                                       
+                                       
+                                     
+                                       
                                        
                                    }
 
-                                   */
-                                   
-                                   //NSLog(@"%@", root);
-                                   
-                                   
-                                  //BOOL kq = [root writeToFile:filePathInDocument atomically:YES];
-                                   //NSLog(@"%d", kq);
                                    
                                    [self.collectionView reloadData];
                                    [self.normalSeats removeAllObjects];
@@ -460,5 +531,7 @@
     
     
 }
+
+
 
 @end
